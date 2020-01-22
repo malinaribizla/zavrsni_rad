@@ -1,0 +1,90 @@
+@media screen and (min-width: 640px) {
+  body nav button#burger-btn {
+    display: none !important;
+  }
+  body nav ul {
+    display: flex !important;
+    height: 80px;
+    justify-content: center;
+    align-items: center;
+  }
+  body nav ul li {
+    padding: 20px;
+  }
+  body nav ul li::after {
+    display: none !important;
+  }
+}
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0%;
+}
+body nav {
+  background: #ff9f9f;
+}
+body nav button#burger-btn {
+  background: #ff9f9f;
+  border: 1px solid #fff;
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 6px;
+}
+body nav button#burger-btn div {
+  height: 5px;
+  width: 36px;
+  background: #fff;
+  border-radius: 3px;
+}
+body nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+}
+body nav ul li::after {
+  content: "";
+  display: block;
+  width: 200px;
+  height: 1px;
+  background: #fff;
+}
+body nav ul a {
+  text-decoration: none;
+  color: #fff;
+}
+body main h1 {
+  text-align: center;
+}
+body main form {
+  max-width: 800px;
+  margin: 0 auto;
+}
+body main form input {
+  transition: .6s;
+  display: block;
+  border: none;
+  border-bottom: 1px solid #ff9f9f;
+}
+body main form input:focus {
+  color: #000000;
+}
+body main form input:hover {
+  color: #ff7070;
+}
+body main form input:focus::placeholder {
+  padding-left: 0;
+}
+body main form input::placeholder {
+  transition: .6s;
+  padding-left: 10px;
+}
+body main form input[type="number"]::after {
+  content: "$";
+  display: block;
+}
+
+/*# sourceMappingURL=style.css.map */

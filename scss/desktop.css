@@ -1,0 +1,50 @@
+@media screen and (min-width: 640px) {
+  body #header-info {
+    display: block !important;
+    padding: 0 20px; }
+    body #header-info .container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between; }
+      body #header-info .container .contact-info {
+        display: flex; }
+        body #header-info .container .contact-info div {
+          min-height: 28px;
+          display: flex;
+          align-items: center;
+          padding-left: 5px; }
+        body #header-info .container .contact-info a {
+          text-decoration: none;
+          color: #ff003c; }
+      body #header-info .container .social-media {
+        display: flex;
+        align-items: center; }
+        body #header-info .container .social-media a {
+          min-height: 28px;
+          display: flex;
+          align-items: center;
+          padding-left: 5px; }
+  body nav {
+    font-size: 1.3em; }
+    body nav button#burger-btn {
+      display: none !important; }
+    body nav ul {
+      display: flex !important;
+      height: 60px;
+      justify-content: center;
+      align-items: center; }
+      body nav ul li {
+        padding: 20px; }
+      body nav ul li::after {
+        display: none !important; }
+  body main #about-page {
+    max-width: 1200px !important;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; }
+    body main #about-page .portret {
+      display: flex;
+      max-width: 1200px !important; } }
+
+/*# sourceMappingURL=desktop.css.map */

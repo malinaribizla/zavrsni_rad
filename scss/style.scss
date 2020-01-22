@@ -1,0 +1,50 @@
+@import "variables";
+@import "header";
+@import "desktop";
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 0%;
+    main {
+        // ODAVDE JE HOME
+        a {
+            text-decoration: none;
+            #landing {
+                background: url("../img/graphics/bg.jpg");
+                background-size: cover;
+                background-position: center;
+                .hero {
+                    height: 100vh;
+                    display: flex;
+                    align-items: center;
+                    .container {
+                        width: 100%;
+                        text-align: center;
+                        text-decoration: none;
+                        color: $akcenat_boja;
+                        h1 {
+                            font-weight: 700;
+                            text-transform: uppercase;
+                            font-size: 48px;
+                        }
+                        h2 {
+                            font-family: 'Crimson Text', serif;
+                            font-weight: 600;
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+        // ODAVDE JE ABOUT
+        #about-page {
+            max-width: 1200px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .portret {
+                display: flex;
+                width: 100%;
+            }
+        }
+    }
+}

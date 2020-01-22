@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <section id="header-info">
+            <div class="container">
+                <div class="contact-info">
+                    <div>
+                        <a href="mailto:info@reen.com"> <img src="img/icons/icon-mail-1.png" alt="mail"> info@reen.com</a>
+                    </div>
+                    <div>
+                        <a href="tel: +123456789"><img src="img/icons/icon-mobile.png" alt="phone"> +(123) 456 789</a>
+                    </div>
+                </div>
+                <div class="social-media">
+                    <a href="#"><img src="img/icons/icon-s-facebook.png" alt="facebook"></a>
+                    <a href="#"><img src="img/icons/icon-s-gplus.png" alt="gplus"></a>
+                    <a href="#"><img src="img/icons/icon-s-twitter.png" alt="twitter"></a>
+                    <a href="#"><img src="img/icons/icon-s-pinterest.png" alt="pinterest"></a>
+                    <a href="#"><img src="img/icons/icon-s-behance.png" alt="behance"></a>
+                    <a href="#"><img src="img/icons/icon-s-dribbble.png" alt="dribble"></a>
+                </div>
+            </div>
+        </section>
+        <section id="top-nav">
+            <div class="container">
+                <div class="left">
+                    <a class="logo" href="#">
+                        <img src="img/logo.png" alt="reen_logo">
+                    </a>
+                    <nav id="main-nav">
+                        <button>+</button>
+                        <ul>
+                            <li>
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <a href="#">Portfolio</a>
+                            </li>
+                            <li>
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <a href="#">Pages</a>
+                            </li>
+                            <li>
+                                <a href="#">Features</a>
+                            </li>
+                            <li>
+                                <a href="#">Mega Menu</a>
+                            </li>
+                            <li>
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="search">
+                    <img src="img/icons/icon-search.png" alt="search">
+                </div>
+            </div>
+        </section>
+    </header>
+    <!-- OVDE IDE CSS ZA GORNJI HEADER -->
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+    header #header-info {
+        background: #f5f7fa;
+        border-bottom: 1px solid #e6e9ed;
+        padding: 0 20px;
+    }
+    header #header-info .container{
+        display: flex;
+        justify-content: space-between;
+    }
+    header #header-info .contact-info {
+        display: flex;
+    }
+    header #header-info .contact-info div, header #header-info .social-media {
+        min-height: 40px;
+        /* u ovom slucaju najlakse nam da dodelimo ovde i onda povlaci sve parent elemente */
+        display: flex;
+        align-items: center;
+    }
+    header #header-info .contact-info div {
+        margin-right: 25px;
+    }
+    header #header-info .contact-info a {
+        color: #506a85;
+        text-decoration: none;
+        font-family: "Source Sans Pro", sans-serif;
+        font-size: 12px;
+        vertical-align: bottom;
+    }
+    header #header-info .contact-info a img {
+        padding-right: 3px;
+        vertical-align: bottom;
+        
+    }
+    header #header-info .social-media a {
+        margin-left: 20px;
+</body>
+</html>
